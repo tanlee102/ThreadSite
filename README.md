@@ -1,11 +1,15 @@
 The code is just the front-end of project. I don't want to share the back-end because it contains important information.
-I created the project for a while and already launched it, but I failed; not many people access it, despite the fact that I got the first 40 members in just one week, but is not enough to maintain server.
+I created the project for a while and already launched it, but I failed; not many people access it, despite the fact that I got the first 50 members in just one week, but is not enough to maintain server.
 
 - Technical:
   Backend + Fronted: Javascript(NextJs - ExpressJs).
   Database: MySQL, MongoDB.
   Image-server: PHP.
   Proxy: Nginx.
+
+![321431501_863633244676465_410323885634008126_n](https://github.com/tanlee102/ThreadSite/assets/54614140/c6d4a264-1307-423e-8056-4cddf794f6c2)
+
+
 
 Example described Image:
 
