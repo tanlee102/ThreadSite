@@ -9,6 +9,11 @@ Technical:
 - Proxy: Nginx.
 
 
+For a complete understanding of the project, just read this document (only written in Vietnamese):
+[ThreadApp.docx](https://github.com/tanlee102/ThreadSite/files/12168787/ThreadApp.docx)
+
+
+
   
 <img width="657" alt="Screen Shot 2023-07-26 at 13 26 02" src="https://github.com/tanlee102/ThreadSite/assets/54614140/ea86aaa2-2551-4880-9541-690b23f96a9d">
 
@@ -16,8 +21,6 @@ Technical:
 
 <img width="718" alt="Screen Shot 2023-07-26 at 13 25 42" src="https://github.com/tanlee102/ThreadSite/assets/54614140/70884a5b-6eef-4d68-bf3f-3ea0accb23ba">
 
-
-For a complete understanding of the project, just read this document (only written in Vietnamese):[ThreadApp.docx](https://github.com/tanlee102/ThreadSite/files/12168733/ThreadApp.docx)
 
 
 
