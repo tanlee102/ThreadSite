@@ -3,6 +3,7 @@ I created the project for a while and already launched it, but I failed; not man
 
 
 Technical:
+- Markup and style language: Html, Css.
 - Backend + Fronted: Javascript(NextJs - ExpressJs).
 - Database: MySQL, MongoDB.
 - Image-server: PHP.
