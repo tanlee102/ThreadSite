@@ -6,9 +6,12 @@ I created the project for a while and already launched it, but I failed; not man
   Database: MySQL, MongoDB.
   Image-server: PHP.
   Proxy: Nginx.
+  
+<img width="657" alt="Screen Shot 2023-07-26 at 13 26 02" src="https://github.com/tanlee102/ThreadSite/assets/54614140/ea86aaa2-2551-4880-9541-690b23f96a9d">
 
-![321431501_863633244676465_410323885634008126_n](https://github.com/tanlee102/ThreadSite/assets/54614140/c6d4a264-1307-423e-8056-4cddf794f6c2)
+<img width="847" alt="Screen Shot 2023-07-26 at 13 25 19" src="https://github.com/tanlee102/ThreadSite/assets/54614140/cc8e8b22-e850-4d05-9070-e4eb789d5bd5">
 
+<img width="718" alt="Screen Shot 2023-07-26 at 13 25 42" src="https://github.com/tanlee102/ThreadSite/assets/54614140/70884a5b-6eef-4d68-bf3f-3ea0accb23ba">
 
 
 Example described Image:
