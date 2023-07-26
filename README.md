@@ -46,6 +46,7 @@ Example described Image:
 
 - Notification and Manage account:
 <img width="1215" alt="Screen Shot 2023-07-26 at 13 08 04" src="https://github.com/tanlee102/ThreadSite/assets/54614140/6739b5d5-3b7d-4a83-a8e8-768a97c0db48">
+<img width="1121" alt="Screen Shot 2023-07-26 at 14 14 39" src="https://github.com/tanlee102/ThreadSite/assets/54614140/4fa7d894-608e-4531-9cce-3e4d7ba0db1a">
 
 
 - Update User Information:
