@@ -1,4 +1,4 @@
-<img width="1251" alt="Screen Shot 2023-07-26 at 13 10 35" src="https://github.com/tanlee102/ThreadSite/assets/54614140/d22dda51-6967-412e-bcbf-64228755f24c">The code is just the front-end of project. I don't want to share the back-end because it contains important information.
+The code is just the front-end of project. I don't want to share the back-end because it contains important information.
 I created the project for a while and already launched it, but I failed; not many people access it, despite the fact that I got the first 40 members in just one week, but is not enough to maintain server.
 
 - Technical:
@@ -11,6 +11,9 @@ Example described Image:
 
 Guest HomePage:
 <img width="1212" alt="Screen Shot 2023-07-26 at 13 06 19" src="https://github.com/tanlee102/ThreadSite/assets/54614140/7c8e1b7e-f3d1-4b62-a751-a98bef4e0577">
+
+Member Homepage:
+<img width="1251" alt="Screen Shot 2023-07-26 at 13 10 35" src="https://github.com/tanlee102/ThreadSite/assets/54614140/d22dda51-6967-412e-bcbf-64228755f24c">
 
 List Member:
 <img width="1162" alt="Screen Shot 2023-07-26 at 13 07 09" src="https://github.com/tanlee102/ThreadSite/assets/54614140/b23f8748-11d2-487d-8147-44e424a05dec">
