@@ -1,6 +1,7 @@
 The code is just the front-end of project. I don't want to share the back-end because it contains important information.
 I created the project for a while and already launched it, but I failed; not many people access it, despite the fact that I got the first 50 members in just one week, but is not enough to maintain server.
 
+
 Technical:
 - Backend + Fronted: Javascript(NextJs - ExpressJs).
 - Database: MySQL, MongoDB.
@@ -12,6 +13,9 @@ Technical:
 <img width="847" alt="Screen Shot 2023-07-26 at 13 25 19" src="https://github.com/tanlee102/ThreadSite/assets/54614140/cc8e8b22-e850-4d05-9070-e4eb789d5bd5">
 
 <img width="718" alt="Screen Shot 2023-07-26 at 13 25 42" src="https://github.com/tanlee102/ThreadSite/assets/54614140/70884a5b-6eef-4d68-bf3f-3ea0accb23ba">
+
+For a complete understanding of the project, just read this document (only written in Vietnamese):[ThreadApp.docx](https://github.com/tanlee102/ThreadSite/files/12168733/ThreadApp.docx)
+
 
 
 Example described Image:
