@@ -1,0 +1,260 @@
+.main-content{
+    position: relative;
+    float: left;
+    height: auto;
+}
+
+.main-content *{
+    padding: 0;
+}
+
+/* ////////////////////////// */
+.right-content{
+    position: relative;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.right-content *{
+    padding: 0;
+}
+
+.ri-content{
+    position: relative;
+    float: left;
+}
+
+.ri-p1-content{
+    position: relative;
+    height: auto;
+    background-color: white;
+    border-radius: 3px;
+    border-top: 1px solid rgba(101, 101, 101, 0.141);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+    padding-bottom: 3px;
+}
+
+.title-list-right-side{
+    position: relative;
+    width: calc(100% - 20px);
+    padding: 10px 10px 5px 10px;
+    color: rgb(53, 53, 53);
+    font-weight: bold;
+    font-size: 15px;
+}
+/* ////////////////////////// */
+
+
+
+
+
+
+
+
+
+/* ////////////////////////// */
+
+.ri-p2-content{
+    position: relative;
+    height: auto;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+}
+
+/* ///////////////////// */
+
+
+
+
+
+/* ////////////////////////// */
+
+.ri-p3-content{
+    position: relative;
+    height: auto;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+}
+
+/* ///////////////////// */
+
+
+
+
+
+
+
+
+/* /////////////////////////// */
+
+.ri-p4-content{
+    position: relative;
+    height: auto;
+    float: left;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+}
+
+.ri-p4-content[dark-mode="true"]{
+    background-color: #312f2f;
+}
+
+.ri-p4-content[dark-mode="true"] .title-list-right-side{
+    color: white;
+}
+
+.info-statis-forum{
+    position: relative;
+    float: left;
+    color: rgb(49, 49, 49);
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.ri-p4-content[dark-mode="true"] .info-statis-forum{
+    color: rgb(226, 226, 226);
+}
+
+.ri-p4-content[dark-mode="true"] a{
+    color: rgb(101, 212, 21);
+}
+
+.info-statis-forum div{
+    position: relative;
+    float: left;
+    width: calc(100% - 20px);
+    height: auto;
+    padding: 0 10px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.info-statis-forum div span{
+    position: relative;
+    float: right;
+}
+
+.info-statis-forum div span:first-child{
+    position: relative;
+    float: left;
+    color: brown;
+}
+
+.ri-p4-content[dark-mode="true"] .info-statis-forum div span:first-child{
+    color: rgb(228, 128, 57)
+}
+
+.info-statis-forum div span a{
+    text-decoration: none;
+}
+
+/* ///////////////////// */
+
+
+
+
+
+/* ///////////////////// */
+
+.cr-path{
+    float: left;
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cr-path div{
+    height: auto;
+    width: auto;
+    display: inline-flex;
+    flex-direction: row;
+    margin: auto;
+    cursor: pointer;
+}
+
+.cr-path svg{
+    fill: cornflowerblue;
+    margin: auto 4px;
+    height: 10px;
+}
+
+.cr-path span{
+    color: rgb(29, 53, 131);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cr-path[dark-mode="true"] span{
+    color: rgb(102, 163, 255);
+}
+
+/* .cr-path > div > span:nth-last-child(-n+1){
+    display: none;
+}
+.cr-path > div > i:nth-last-child(-n+2){
+    display: none;
+} */
+
+
+/* ////////////////////////// */
+
+
+
+
+/* //////////////////////////////////////////////// */
+
+.fr-create-topic{
+    position: relative;
+    float: left;
+    width: calc(100%);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.fr-create-topic select{
+    position: relative;
+    float: left;
+    margin: 5px 10px  5px 10px;
+    border-radius: 3px;
+    padding: 3px 5px;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.content[dark-mode="true"] .fr-create-topic select{
+    background-color: rgb(62, 62, 62);
+    border: 1px solid rgb(135, 135, 135);
+    color: white;
+}
+
+.fr-create-topic input, .fr-create-topic textarea{
+    float: left;
+    font-size: 15px;
+    margin: 7px 10px;
+    padding: 5px 7px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 3px;
+}
+
+.content[dark-mode="true"] .fr-create-topic input, .content[dark-mode="true"] .fr-create-topic textarea{
+    background-color: rgb(62, 62, 62);
+    border: 1px solid rgb(135, 135, 135);
+    color: white;
+}
+.fr-create-topic input:focus, .fr-create-topic textarea:focus{
+    border: 1px solid cornflowerblue !important;
+}
+

@@ -1,0 +1,326 @@
+.fr-notkit{
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.fr-notkit svg{
+    fill: black !important;
+}
+.content[dark-mode="true"] .fr-notkit svg{
+    fill: white !important;
+}
+
+
+
+
+
+
+.fr-text-notkit{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.fr-text-notkit svg{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 0px;
+    right: 0px;
+    background-color: white;
+    padding: 5px;
+    border-bottom-left-radius: 3px;
+    fill: rgb(94, 94, 94);
+    cursor: pointer;
+}
+.fr-text-notkit svg:last-child{
+    top: auto;
+    left: 24px;
+    bottom: 0px;
+}
+.fr-text-notkit svg:nth-child(3){
+    top: auto;
+    left: 0px;
+    bottom: 0px;
+}
+.content[dark-mode="true"]  .fr-text-notkit svg{
+    background-color: black;
+    fill: white;
+}
+
+
+.text-notkit{
+    margin: auto;
+    width: calc(100% - 22px);
+    padding: 10px;
+    border-radius: 2px;
+    height: auto;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(224, 224, 224);
+    color: black;
+    line-height: 1.6em;
+    font-size: medium;
+    margin: 10px 0px;
+}
+.text-notkit a{
+    color: coral;
+    text-decoration: underline;
+}
+.content[dark-mode="true"] .text-notkit{
+    background-color: rgb(39, 39, 39);
+    border: 1px solid black;
+    color: white;
+}
+.text-notkit:empty:not(:focus):before{
+    content:"Viết...";
+    color:grey;
+    font-style:italic;
+}
+
+
+
+
+
+
+
+
+
+.fr-image-notkit{
+    position: relative;
+    width: auto;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+.fr-image-notkit span{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    padding: 5px;
+    margin: auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    border-bottom-left-radius: 2px;
+    background-color: white;
+    z-index: 2;
+}
+
+.content[dark-mode="true"] .fr-image-notkit span{
+    background-color: black;
+}
+
+.fr-image-notkit span svg{
+    width: 12px;
+    height: 12px;
+    fill: rgb(50, 50, 50);
+    stroke: white;
+}
+/* SET MEDIA -------------------------------- */
+.fr-image-notkit img, .fr-image-notkit video, .fr-image-notkit iframe{
+    display: block;
+}
+.fr-image-notkit img, .fr-image-notkit video{
+    max-width: 100%;
+    min-width: 300px;
+    max-height: 550px;
+    height: auto;
+    margin: 10px 0px;
+    border-radius: 3px;
+    object-fit: contain;    
+    background-color: #828282;
+}
+/* SET MEDIA -------------------------------- */
+
+
+
+
+
+
+
+
+
+
+.fr-embed-notkit{
+    position: relative;
+    width: auto;
+    height: auto;
+    border-radius: 4px;
+    display: inline-block;
+    justify-content: left;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.fr-embed-notkit > div{
+    position: relative;
+    display: block;
+    height: auto;
+    width: auto;
+}
+
+
+.fr-embed-notkit span{
+    position: absolute;
+    top: -10px;
+    right: 0px;
+    cursor: pointer;
+    padding: 5px;
+    margin: auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    border-bottom-left-radius: 2px;
+    background-color: white;
+}
+
+.content[dark-mode="true"] .fr-embed-notkit span{
+    background-color: black;
+}
+
+.fr-embed-notkit span svg{
+    width: 12px;
+    height: 12px;
+    fill: rgb(50, 50, 50);
+    stroke: white;
+}
+
+
+
+
+
+
+
+.fr-break-notkit{
+    position: relative;
+    width: 100%;
+    height: 2px;
+    margin: 11px 0px;
+
+
+    background-color: rgb(231, 231, 231);
+    border-radius: 3px;
+}
+
+.content[dark-mode="true"]  .fr-break-notkit{
+    background-color: rgb(39, 39, 39);
+}
+
+.fr-break-notkit span{
+    position: absolute;
+    bottom: -10px;
+    right: 0px;
+    display: flex;
+    padding: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+.content[dark-mode="true"]  .fr-break-notkit span{
+    background-color: black;
+}
+
+.fr-break-notkit span svg{
+    background-color: white;
+    height: 12px;
+    width: 12px;
+}
+
+.content[dark-mode="true"]  .fr-break-notkit span svg{
+    fill: white;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+.fr-action-notkit {
+    height: 30px;
+    /* background-color: aqua; */
+    width: auto;
+    float: right;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+/* 
+.fr-action-notkit input{
+    width: 100%;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 2px;
+    background-color: white;
+    border: 1px solid rgb(224, 224, 224);
+}
+.content[dark-mode="true"] .fr-action-notkit input{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(39, 39, 39);
+}
+.fr-action-notkit input:focus{
+    border: 1px solid cornflowerblue !important;
+} */
+
+.fr-action-notkit span{
+
+    float: left;
+
+    margin: auto;
+    justify-content: center;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+
+    width: auto;
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: rgb(70, 70, 70);
+}
+
+/* .fr-action-notkit span:nth-child(3){
+    margin-left: 10px;
+} */
+
+.content[dark-mode="true"] .fr-action-notkit span{
+    background-color: black;
+}
+
+
+.fr-action-notkit span svg{
+    width: 20px;
+    height: 20px;
+    fill: white !important;
+}
+.content[dark-mode="true"] .fr-action-notkit span svg{
+    fill: white !important;
+}
+
+
+
+.button-action-box-nokit{
+    background-color: cornflowerblue;
+    border: black;
+}
+
+
+
+
+
+
+
+
+
+
+

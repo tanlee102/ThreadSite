@@ -1,0 +1,8 @@
+@media only screen and (max-width: 650px) {
+    #make-image-dropdown-nakit, #make-link-dropdown-nakit{
+        width: 200px;
+    }
+    .fr-text{
+        max-height: 300px;
+    }
+}
