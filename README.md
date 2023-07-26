@@ -45,4 +45,8 @@ Admin homepage:
 Admin manage-page
 <img width="1152" alt="Screen Shot 2023-07-26 at 13 13 12" src="https://github.com/tanlee102/ThreadSite/assets/54614140/7e8796e0-fc2f-4b38-940e-1372ab525869">
 
+Create newpost:
+<img width="1103" alt="Screen Shot 2023-07-26 at 13 17 13" src="https://github.com/tanlee102/ThreadSite/assets/54614140/b126e53e-4676-4766-bfe6-2f3119f339ba">
+<img width="1157" alt="Screen Shot 2023-07-26 at 13 17 40" src="https://github.com/tanlee102/ThreadSite/assets/54614140/ff38b931-ae8c-4c2b-b6dd-85b47119d264">
+
 
