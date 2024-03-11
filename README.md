@@ -1,4 +1,4 @@
-ThreadSite is a dynamic website that combines the functionalities of a forum and a social media platform. It provides a space where users can actively participate in discussions, share their thoughts, and upload posts on a wide range of topics. Whether you're looking to connect with like-minded individuals, seek advice, or engage in meaningful conversations, ThreadSite offers a user-friendly interface and intuitive design to enhance your browsing experience. 
+<img width="1324" alt="Screenshot 2024-03-11 at 12 09 16" src="https://github.com/tanlee102/ThreadSite_/assets/54614140/5fff806c-70f9-4b60-929b-1ad4be830407">ThreadSite is a dynamic website that combines the functionalities of a forum and a social media platform. It provides a space where users can actively participate in discussions, share their thoughts, and upload posts on a wide range of topics. Whether you're looking to connect with like-minded individuals, seek advice, or engage in meaningful conversations, ThreadSite offers a user-friendly interface and intuitive design to enhance your browsing experience. 
 
 The ThreadSite website incorporates the following technologies:
 
@@ -12,14 +12,13 @@ For a complete understanding of the project, just read this document (only writt
 
 Here is the complete code for all servers: https://drive.google.com/file/d/11N6s8HsMyPwyQKjIM45L4z9GG1TBtHRw/view?usp=sharing
 
-<img width="1315" alt="Screenshot 2024-03-11 at 12 07 35" src="https://github.com/tanlee102/ThreadSite_/assets/54614140/246a81ce-3be6-4025-aa55-c71385237f12">
+![image](https://github.com/tanlee102/ThreadSite_/assets/54614140/0c311c54-ae1d-4748-9781-56eb5c1af807)
 ![image](https://github.com/tanlee102/ThreadSite_/assets/54614140/ec46a12a-6178-4c7e-9327-c054f00ddf21)
 ![image](https://github.com/tanlee102/ThreadSite_/assets/54614140/1d28d44e-18b4-4c38-aae2-b1f35900209e)
 
 
-
 Example described Image:
-<img width="1322" alt="Screenshot 2024-03-11 at 11 59 14" src="https://github.com/tanlee102/ThreadSite_/assets/54614140/5d8747c9-d629-4300-919a-49cfd8f18358">
+<img width="1324" alt="Screenshot 2024-03-11 at 12 09 16" src="https://github.com/tanlee102/ThreadSite_/assets/54614140/5a18d230-18b4-4551-85de-320e7ff30e10">
 ![image](https://github.com/tanlee102/ThreadSite_/assets/54614140/f7ca02e9-b915-45a0-8540-4501f1a622c0)
 ![image](https://github.com/tanlee102/ThreadSite_/assets/54614140/ff3d5c41-2006-4314-baa4-d33908625bf1)
 ![image](https://github.com/tanlee102/ThreadSite_/assets/54614140/bb6e4b5d-d166-43d2-a519-6888a9e53a33)
