@@ -8,6 +8,8 @@ The ThreadSite website incorporates the following technologies:
 - Image Server: The website utilizes two different technologies for the image server. PHP is employed for image processing and management, while Python's FastAPI framework offers a high-performance solution for serving images efficiently.
 - Proxy: Nginx is utilized as a proxy server to handle incoming requests, route traffic, and provide additional security and performance optimizations.
 
+Here is the clone homepage file: https://vnthread-site.static.domains/clone
+
 For a complete understanding of the project, just read this document (only written in Vietnamese): [ThreadApp.docx](https://github.com/tanlee102/ThreadSite_/files/14553669/ThreadApp.docx)
 
 To access the complete source code for all backend server components, please follow the provided link:
