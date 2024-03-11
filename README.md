@@ -12,7 +12,7 @@ For a complete understanding of the project, just read this document (only writt
 
 Here is the complete code for all servers: https://drive.google.com/file/d/11N6s8HsMyPwyQKjIM45L4z9GG1TBtHRw/view?usp=sharing
 
-![image](https://github.com/tanlee102/ThreadSite_/assets/54614140/9d761577-f5ee-4db5-9d42-ab408673b245)
+<img width="1315" alt="Screenshot 2024-03-11 at 12 07 35" src="https://github.com/tanlee102/ThreadSite_/assets/54614140/246a81ce-3be6-4025-aa55-c71385237f12">
 ![image](https://github.com/tanlee102/ThreadSite_/assets/54614140/ec46a12a-6178-4c7e-9327-c054f00ddf21)
 ![image](https://github.com/tanlee102/ThreadSite_/assets/54614140/1d28d44e-18b4-4c38-aae2-b1f35900209e)
 
