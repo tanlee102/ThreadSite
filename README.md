@@ -11,10 +11,10 @@ The ThreadSite website incorporates the following technologies:
 For a complete understanding of the project, just read this document (only written in Vietnamese): [ThreadApp.docx](https://github.com/tanlee102/ThreadSite_/files/14553669/ThreadApp.docx)
 
 To access the complete source code for all backend server components, please follow the provided link:
-https://github.com/tanlee102/ServerAPI_ThreadSite
-https://github.com/tanlee102/UserAPI_ThreadSite
-https://github.com/tanlee102/PhoAPI_ThreadSite
-https://github.com/tanlee102/FastAPI-Image-Proxy
+- https://github.com/tanlee102/ServerAPI_ThreadSite
+- https://github.com/tanlee102/UserAPI_ThreadSite
+- https://github.com/tanlee102/PhoAPI_ThreadSite
+- https://github.com/tanlee102/FastAPI-Image-Proxy
 
 Here is the complete code for all servers: https://drive.google.com/file/d/11N6s8HsMyPwyQKjIM45L4z9GG1TBtHRw/view?usp=sharing
 
