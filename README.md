@@ -1,4 +1,4 @@
-<img width="1324" alt="Screenshot 2024-03-11 at 12 09 16" src="https://github.com/tanlee102/ThreadSite_/assets/54614140/5fff806c-70f9-4b60-929b-1ad4be830407">ThreadSite is a dynamic website that combines the functionalities of a forum and a social media platform. It provides a space where users can actively participate in discussions, share their thoughts, and upload posts on a wide range of topics. Whether you're looking to connect with like-minded individuals, seek advice, or engage in meaningful conversations, ThreadSite offers a user-friendly interface and intuitive design to enhance your browsing experience. 
+ThreadSite is a dynamic website that combines the functionalities of a forum and a social media platform. It provides a space where users can actively participate in discussions, share their thoughts, and upload posts on a wide range of topics. Whether you're looking to connect with like-minded individuals, seek advice, or engage in meaningful conversations, ThreadSite offers a user-friendly interface and intuitive design to enhance your browsing experience. 
 
 The ThreadSite website incorporates the following technologies:
 
