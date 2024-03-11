@@ -1,0 +1,237 @@
+.profile-head-tab{
+    float: left;
+    width: 100%;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 0px 2px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: left;
+}
+.fr-member[dark-mode="true"] .profile-head-tab{
+    background-color:  #414141;
+}
+
+/* --------------------------------------------- */
+.co-ava-profile-head-tab{
+    width: auto !important;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.co-ava-profile-head-tab > div{
+    padding: 10px;
+}
+.ava-profile-head-tab{
+    position: relative;
+    width: 200px !important;
+    height: 200px !important;
+    display: block;
+    border-radius: 3px !important;
+    overflow: hidden !important;
+}
+.image-ava-profile-head-tab-container {
+    position: 'relative';
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.image-ava-profile-head-tab-container > div{
+    position: unset !important;
+}
+.image-ava-profile-head-tab-container > .image-ava-profile-head-tab{
+    object-fit: cover;
+    width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+}
+/* --------------------------------------------- */
+
+.co-profile-head-tab{
+    /* float: left; */
+    width: calc(100% - 220px);
+    margin-top: 10px;
+}
+
+.co-profile-head-tab > div:first-child{
+    overflow: hidden;
+    max-width: calc(100%);
+    font-size: 23px;
+    font-weight: 700;
+    color: black;
+    display: block;
+}
+
+.fr-member[dark-mode="true"] .co-profile-head-tab > div:first-child{
+    color: white;
+}
+
+
+
+.co-profile-head-tab div:nth-child(2){
+    overflow: hidden;
+    max-width: calc(100%);
+    margin-top: 5px;
+    display: flex;
+    justify-content: left;
+}
+.co-profile-head-tab div:nth-child(2) svg{
+    fill: rgb(158, 158, 158);
+}
+.fr-member[dark-mode="true"] .co-profile-head-tab  > div:nth-child(2) > svg{
+    fill: white;
+}
+
+.co-profile-head-tab div:nth-child(2) span{
+    max-width: calc(100% - 25px);
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(148, 148, 148);
+    margin: 0;
+    padding: 0;
+    margin-left: 4px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.fr-member[dark-mode="true"] .co-profile-head-tab div:nth-child(2) span{
+    color: white;
+}
+
+
+
+
+.co-profile-head-tab div:nth-child(3){
+    display: flex;
+    justify-content: left;
+    width: calc(100%);
+    margin-top: 7px;
+}
+.co-profile-head-tab div:nth-child(3) svg{
+    fill: rgb(94, 94, 94);
+    margin-left: 1px;
+}
+.fr-member[dark-mode="true"] .co-profile-head-tab > div:nth-child(3) > svg{
+    fill: #d99400;
+}
+
+.co-profile-head-tab div:nth-child(3) span{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(122, 95, 36);
+    max-width: calc(100% - 30px);
+    margin-left: 4px;
+}
+.fr-member[dark-mode="true"] .co-profile-head-tab div:nth-child(3) span{
+    color: #d99400;
+}
+
+
+.co-profile-head-tab div:nth-child(4){
+    display: flex;
+    justify-content: left;
+    width: calc(100%);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.co-profile-head-tab div:nth-child(4) > span{
+    width: calc(auto);
+    display: flex;
+    justify-content: left;
+}
+.co-profile-head-tab div:nth-child(4) > span svg{
+    fill: rgb(108, 108, 108);
+    width: 20px;
+    height: 20px;
+}
+.fr-member[dark-mode="true"] .co-profile-head-tab div:nth-child(4) > span svg{
+    fill: rgb(255, 255, 255);
+}
+
+.co-profile-head-tab div:nth-child(4) > span span{
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 3px;
+    color:  rgb(108, 108, 108);
+    margin-top: 2px;
+    max-width: calc(100% - 30px);
+    margin-right: 15px;
+}
+.fr-member[dark-mode="true"] .co-profile-head-tab div:nth-child(4) > span span{
+    color:rgb(255, 255, 255);
+}
+
+
+.co-profile-head-tab div:nth-child(4) > span span:last-child{
+    margin-right: 0px;
+}
+
+
+
+
+
+.btn-profile-head-tab{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    position: relative;
+}
+
+.btn-profile-head-tab div:only-child{
+    position: relative;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.follow-button{
+    position: relative;
+    float: left;
+    width: auto;
+    font-weight: bold;
+    background-color: rgb(49, 49, 49);
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: white;
+    font-size: small;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.fr-member[dark-mode="true"] .follow-button{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.unfollow-button{
+    background-color: #ffffff !important;
+    color: black;
+    border:1px solid #9d9d9d;
+}
+
+.fr-member[dark-mode="true"] .unfollow-button{
+    background-color: #414141 !important;
+    color: white;
+    border:1px solid white;
+}
+
+.fr-member[dark-mode="true"] .unfollow-button svg{
+    fill: #f0f0f0 ;
+}
+
+
+.option-profile-head-button{
+    margin-right: 7px;
+    position: relative;
+}
+
+.option-profile-head-button svg{
+    width: auto;
+    height: 16px;
+    width: auto;
+}

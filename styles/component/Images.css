@@ -1,0 +1,261 @@
+.contain-list-image{
+    /* display: inline-grid; */
+}
+
+.item-image{
+    position: relative;
+    float: left;
+    width: calc(100% / 5 - 5px);
+    height: 210px;
+    box-shadow: 0 0px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 0px 5px 5px 0px;
+}
+
+.item-image > span{
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+    background-color: coral;
+    font-weight: bold;
+    color: white;
+    font-size: 13px;
+    padding: 5px 7px;
+    border-radius: 3px;
+}
+
+.item-image > div{
+    width: 100%;
+    height: 100% !important;
+    position: relative;
+    float: left;
+    display: block;
+}
+
+.item-image div img{
+    float: left;
+    width: 100%;
+    object-fit: cover;
+    height: 179px !important;
+}
+
+.item-image div span{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    margin: 5px;
+    float: left;
+    color: cornflowerblue;
+    font-weight: bold;
+    height: 20px !important;
+}
+
+.item-image div span svg{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.item-image div span p{
+    overflow: hidden;
+}
+
+
+.pip-label{
+    background-color: cornflowerblue;
+    width: auto;
+    color: aliceblue;
+    margin-bottom: 15px;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 3px;
+    box-shadow: 0 0px 2px rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contain-list-pip{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.contain-list-pip div{
+    width: auto;
+    background-color: white;
+    padding: 10px 10px;
+    margin-bottom: 1px;
+    box-shadow: 0 0px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-add-pip{
+    position: relative;
+    float: left;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 13px;
+    padding: 7px 10px;
+    border-radius: 4px;
+    box-shadow: 0 0px 2px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.btn-pip-image-add{
+    margin-left: 10px;
+    background-color: crimson;
+    cursor: pointer;
+}
+
+.contain-pip-add-image{
+    position: relative;
+    box-shadow: 0 0px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.btn-pip-add-image{
+    position: relative;
+    margin: 5px;
+    box-shadow: none;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.btn-pip-add-image:nth-child(3){
+    background-color: coral;
+}
+
+.input-percent-pip-image{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+.input-percent-pip-image input{
+    position: relative;
+    width: 90px;
+    height: 21px;
+    margin-left: 5px;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 1px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS file - styles.css */
+
+.preview {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+.preview > div{
+    position: relative;
+    margin: 0px 3px 3px 0px;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+}
+  
+.preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.preview button {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: 3px;
+    padding: 2px 3px;
+    background-color: rgb(255, 78, 14);
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.upload-button {
+display: inline-block;
+padding: 10px 15px;
+background-color: #2196f3;
+color: #ffffff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.upload-button:hover {
+background-color: #1976d2;
+}
+
+.hidden-input {
+display: none;
+}
+
+
+
+.contain-update-chapter-pip{
+    float: left;
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+
+.co-get-but-pip{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.co-get-but-pip span:first-child input{
+    margin-left: 0px;
+}
+
+.co-get-but-pip span input{
+    width: 150px;
+}
+
+.co-get-but-pip button{
+    margin-left: 5px;
+    padding: 4px 10px;
+    background-color: cadetblue;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.number-images-of-pip{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}

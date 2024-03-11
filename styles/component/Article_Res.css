@@ -1,0 +1,132 @@
+.root-content-article video{
+    width: 100%;
+}
+
+.root-content-article img, .root-content-article video, .embed-nokit, .root-content-article iframe{
+    display: block;
+}
+
+.root-content-article img{
+    min-height: 110px;
+}
+
+@media only screen and (min-width: 1312px){
+    .root-content-article{
+        padding: 20px 60px !important;
+        width: calc(100% - 120px) !important;
+    }
+
+    /* SET IMAGE -------------------------------- */
+    .root-content-article div:has(img:not(.icon-nakit)) img, .root-content-article img:not(.icon-nakit)
+    {
+        width: calc(100% + 120px) !important;
+        margin-left: -60px !important;
+    }
+    /* SET IMAGE -------------------------------- */
+}
+
+@media only screen and (min-width: 1050px)  and (max-width: 1312px){
+    .root-content-article{
+        padding: 20px 35px !important;
+        width: calc(100% - 70px) !important;
+    }
+
+    /* SET IMAGE -------------------------------- */
+    .root-content-article div:has(img:not(.icon-nakit)) img, .root-content-article img:not(.icon-nakit)
+    {
+        width: calc(100% + 70px) !important;
+        margin-left: -35px !important;
+    }
+    /* SET IMAGE -------------------------------- */
+}
+
+@media only screen and (min-width: 925px)  and (max-width: 1050px) {
+    .root-content-article{
+        padding: 20px 50px !important;
+        width: calc(100% - 100px) !important;
+    }
+
+    /* SET IMAGE -------------------------------- */
+    .root-content-article div:has(img:not(.icon-nakit)) img, .root-content-article img:not(.icon-nakit)
+    {
+        width: calc(100% + 100px) !important;
+        margin-left: -50px !important;
+    }
+    /* SET IMAGE -------------------------------- */
+
+}
+
+@media only screen and (min-width: 820px)  and (max-width: 925px) {
+
+    .root-content-article{
+        padding: 20px 30px !important;
+        width: calc(100% - 60px) !important;
+    }
+
+    /* SET IMAGE -------------------------------- */
+    .root-content-article div:has(img:not(.icon-nakit))  img, .root-content-article img:not(.icon-nakit)
+    {
+        width: calc(100% + 60px) !important;
+        margin-left: -30px !important;
+    }
+    /* SET IMAGE -------------------------------- */
+
+}
+
+
+@media only screen and (min-width: 650px)  and (max-width: 820px) {
+
+    .root-content-article{
+        padding: 20px 20px !important;
+        width: calc(100% - 40px) !important;
+    }
+
+    /* SET IMAGE -------------------------------- */
+    .root-content-article div:has(img:not(.icon-nakit))  img, .root-content-article img:not(.icon-nakit)
+    {
+        width: calc(100% + 40px) !important;
+        margin-left: -20px !important;
+    }
+    /* SET IMAGE -------------------------------- */
+
+    .title-article{
+        font-size: 27px;
+        line-height: 36px;
+    }
+    
+}
+
+@media only screen and (max-width: 650px){     
+
+    .root-content-article{
+        padding: 20px 10px !important;
+        width: calc(100% - 20px) !important;
+    }
+    /* SET IMAGE -------------------------------- */
+    .root-content-article div:has(img:not(.icon-nakit))  img, .root-content-article img:not(.icon-nakit)
+    {
+        width: calc(100% + 20px) !important;
+        margin-left: -10px !important;
+    }
+    /* SET IMAGE -------------------------------- */
+
+
+    .title-article{
+        width: calc(100% - 20px);
+        padding: 0px 10px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .head-article{
+        width: calc(100% - 20px);
+        padding: 0px 10px;
+    }
+
+
+    .bottom-article{
+        margin-left: 10px;
+        width: calc(100% - 20px);
+    }
+
+}

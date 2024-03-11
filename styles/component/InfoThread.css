@@ -1,0 +1,56 @@
+.open-btn-info-thread{
+    float: right;
+    margin-top: 10px;
+}
+
+.open-btn-info-thread span{
+    float: left;
+    padding: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.open-btn-info-thread span:last-child{
+    margin-right: 0px;
+    padding-right: 1px;
+}
+
+.open-btn-info-thread span svg{
+    float: left;
+    height: 22px;
+    width: 22px;
+    fill: rgb(132, 132, 132);
+}
+
+.open-btn-info-thread span:last-child svg{
+    fill: rgb(132, 132, 132);
+}
+
+.info-thread > p:first-child{
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.content[dark-mode="true"] .info-thread > p:first-child{
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
+
+.info-thread > p:nth-child(2){
+    padding: 10px;
+    font-size: 13px;
+}
+
+.content[dark-mode="true"] .info-thread > p:nth-child(2){
+    color: white;
+}
+
+.info-thread > p > span{
+    color: coral;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 650px){ 
+    .open-btn-info-thread{
+        margin-right: 10px;
+    }
+}

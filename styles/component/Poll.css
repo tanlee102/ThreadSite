@@ -1,0 +1,633 @@
+.title-item-poll{
+    display: inline-block;
+}
+
+.title-item-poll span:first-child{
+    display: flex;
+    float: left;
+    margin-right: 5px;
+    line-height: 19px;
+}
+
+.title-item-poll span svg{
+    display: inline-block;
+    fill: cornflowerblue;
+    width: 17px;
+    height: 17px;
+    margin: 0px;
+    padding: 0px;
+}
+.item-hub[dark-mode="true"] .title-item-poll span svg{
+    fill: rgb(133, 168, 233);
+}
+
+.title-item-poll span:nth-child(2){
+    font-size: 15px;
+    color: black;
+}
+.item-hub[dark-mode="true"] .title-item-poll span:nth-child(2){
+    color: white;
+}
+
+.title-item-poll div{
+    line-height: normal;
+    margin-top: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------- */
+
+
+.contain-polling-layout{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.polling-layout{
+    display: inline-block;
+    height: 100%;
+    width: 70%;
+
+}
+.polling-list{
+    display: inline-block;
+    width: calc(30% - 10px);
+    margin-left: 10px;
+    height: auto;
+}
+
+
+.polling-layout > div:first-child{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 0px 1px rgba(0, 0, 0, 0.266);
+}
+
+.polling-layout[dark-mode="true"] > div:first-child{
+    background-color: rgb(47, 47, 47);
+}
+
+
+.polling-item-bottom{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.polling-item-bottom span{
+    background-color: white;
+    box-shadow: 0 0px 2px rgba(0, 0, 0, 0.266);
+}
+
+
+
+#contain-title-polling{
+    position: relative;
+    margin: 8px 10px 0px 10px;
+    padding: 0px;
+    display: block;
+}
+
+
+
+#title-polling{
+    display: inline-block;
+    font-weight: bold;
+}
+
+#title-polling span:first-child{
+    display: block;
+    font-weight: bold;
+    font-size: 27px;
+}
+.polling-layout[dark-mode="true"] #title-polling span:first-child{
+    color: white;
+}
+
+#title-polling span:last-child{
+    position: relative;
+    display: block;
+    height: auto;
+    color: chocolate;
+    font-size: 13px;
+    margin-left: 0.5px;
+}
+#title-polling .set-anchor-gray-color{
+    font-weight: normal;
+}
+.polling-layout[dark-mode="true"] #title-polling span:last-child{
+    color: rgb(241, 157, 96);
+}
+
+.contain-tag-and-sort{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-top: 3px;
+}
+
+
+#contain-tag-polling{
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    width: calc(100% - 35px);
+}
+#contain-tag-polling span{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px 7px 0px 0px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: transparent;
+    color: cornflowerblue;
+    opacity: 0.9;
+}
+/* .polling-layout[dark-mode="true"] #contain-tag-polling span{
+    background-color: transparent;
+    opacity: 0.9;
+} */
+
+.sort-polling{
+    display: flex;
+    width: 35px;
+    height: 25px;
+    margin: 0px 0px 5px 0px;
+}
+.sort-polling div{
+    display: inline-block;
+    background-color: transparent;
+    margin: 0px;
+    padding: 3px;
+    font-size: 11px;
+    border: 1px solid rgba(139, 139, 139, 0.506);
+    border-radius: 3px;
+    cursor: pointer;
+    width: calc(100% - 6px);
+    height: calc(100% - 8px);
+}
+.sort-polling div svg{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.sort-polling div svg{
+    stroke: rgb(33, 33, 33);
+    fill: none;
+}
+.sort-polling div svg path{
+    stroke: rgb(33, 33, 33);
+    fill: none;
+}
+.sort-polling div svg circle{
+    stroke: rgb(33, 33, 33);
+    fill: none;
+}
+
+.polling-layout[dark-mode="true"] .sort-polling div svg{
+    stroke: rgb(215, 215, 215);
+}
+.polling-layout[dark-mode="true"] .sort-polling div svg path{
+    stroke: rgb(215, 215, 215);
+}
+.polling-layout[dark-mode="true"] .sort-polling div svg circle{
+    stroke: rgb(215, 215, 215);
+}
+
+
+
+
+.polling-bars{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.item-polling{
+    position: relative;
+    margin: 0 10px 10px 10px;
+    width: calc(100% - 22px);
+    height: 50px;
+    border-radius: 7px;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 0 0px 1.5px rgba(0, 0, 0, 0.266);
+    overflow: hidden;
+    cursor: pointer;
+}
+.polling-bars[dark-mode="true"] .item-polling{
+    background-color: rgb(67, 67, 67);
+    color: white;
+}
+
+.item-polling{
+    border: 1px solid transparent;
+}
+
+.item-polling > div:last-child{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+}
+
+.item-polling > div > span:first-child{
+    display: inline-flex;
+    height: 44px;
+    width: 44px;
+    margin: 3px;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.item-polling > div > span:first-child > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item-polling > div > span:nth-child(2){
+    display: flex;
+    justify-content: left; /* Align horizontal */
+    align-items: center; /* Align vertical */
+    font-weight: bold;
+    width: calc(100% - 95px);
+    height: 50px;
+    margin-left: 5px;
+    font-size: 17px;
+}
+
+.item-polling > div > span:nth-child(2) > p{
+    max-height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+
+.item-polling > div > span:last-child{
+    display: flex;
+    width: 40px;
+    font-size: 13px;
+    justify-content: center; /* Align horizontal */
+    align-items: center; /* Align vertical */
+}
+.polling-bars[dark-mode="true"] .item-polling > div > span:last-child{
+    color: white;
+}
+
+
+
+.containt-fill-bar{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 50px;
+    /* background-color: rgb(255, 73, 73); */
+    display: flex;
+    flex-direction: row;
+}
+.containt-fill-bar > div:first-child{
+    display: inline-block;
+    width: 50px;
+    height: 100%;
+    /* background-color: aqua; */
+    background-color: rgb(194, 194, 194);
+}
+.containt-fill-bar > div:last-child{
+    display: inline-block;
+    width: calc(100% - 50px);
+    /* background-color: rgb(116, 175, 175); */
+}
+.filled-bar{
+    position: absolute;
+    z-index: 0;
+    width: 0%;
+    height: 50px;
+    border-radius: 0 3px 3px 0 ;
+    background-color: rgb(194, 194, 194);
+}
+.polling-bars[dark-mode="true"] .containt-fill-bar > div:first-child{
+    background-color: rgb(122, 122, 122);
+}
+.polling-bars[dark-mode="true"] .filled-bar{
+    background-color: rgb(122, 122, 122);
+}
+
+.chosing-item-polling{
+    border: 1px solid cornflowerblue;
+}
+.chosing-item-polling .filled-bar{
+    background-color: rgba(100, 148, 237, 0.458);
+}
+.polling-bars[dark-mode="true"] .chosing-item-polling .filled-bar{
+    background-color: rgba(133, 168, 233, 0.715);
+}
+
+
+
+/* -------------------------------------------- */
+
+
+
+
+
+
+
+.contain-add-polling{
+    position: relative;
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0px 1.5px rgba(0, 0, 0, 0.266);
+    background-color: white;
+    overflow: hidden;
+}
+.contain-add-polling[dark-mode="true"]{
+    background-color: rgb(45, 45, 45);
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.add-polling{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+.contain-add-polling[dark-mode="true"] .add-polling{
+    background-color: rgb(45, 45, 45);
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+
+.input-title-polling{
+    display: inline-block;
+    position: relative;
+    background-color: whitesmoke;
+    width: calc(100% - 42px);
+    margin: 10px;
+    padding: 10px;
+
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 25px;
+    outline: none;
+    text-align: left;
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 5px;
+    
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    word-wrap: break-word;
+    overflow:hidden;
+}
+.contain-add-polling[dark-mode="true"] .input-title-polling{
+    background-color: #555;
+    border: 1px solid black;
+    color: white;
+}
+.input-title-polling[placeholder]:empty::before {
+    content: attr(placeholder);
+    color: #555; 
+    font-size: small;
+}
+.contain-add-polling[dark-mode="true"] .input-title-polling[placeholder]:empty::before {
+    color: rgb(203, 203, 203);
+}
+.input-title-polling[placeholder]:empty:focus::before {
+    content: "";
+}
+.bold-text-polling{
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+
+.btn-add-polling{
+    margin: 10px;
+    width: calc(100% - 41px);
+    padding: 10px 10px;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid rgba(137, 137, 137, 0.159);
+    cursor: pointer;
+}
+
+.btn-add-poll-item{
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#btn-add-poll-item{
+    position: relative;
+    display: flex;
+    margin: 0 10px 10px 10px;
+    padding: 10px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 3px;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+
+#btn-add-poll-item svg{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    fill: white;
+}
+
+
+
+
+.dialog-polling-input input:not(:first-child){
+  margin-top: 10px;
+}
+
+
+.contain-list-item-poll{
+    margin-top: 10px;
+    width: 100%;
+    display: inline-block;
+}
+
+
+
+
+
+.move-to-page-add-poll-btn{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 8px;
+    height: auto;
+}
+.move-to-page-add-poll-btn div{
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: left; /* Align horizontal */
+    align-items: center; /* Align vertical */
+    background-color: rgba(100, 148, 237, 0.917);
+    border-radius: 3px;
+    box-shadow: 0 0px 2px rgba(0, 0, 0, 0.266);
+    padding: 5px 6px;
+    margin-left: 0.5px;
+}
+.move-to-page-add-poll-btn svg{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+.move-to-page-add-poll-btn svg path{
+    stroke: white;
+}
+.move-to-page-add-poll-btn span{
+    font-size: 13px;
+    display: inline-block;
+    color: white;
+    margin-left: 3px;
+
+}
+
+
+
+
+
+
+
+
+/* Poll two item */
+
+.con-ite-polling{
+    position: relative;
+    background-color: transparent;
+    width: calc(100% - 20px);
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 10px;
+}
+.it-polling{
+    position: relative;
+    width:calc(50% - 3px);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+.it-polling:first-child{
+    margin-right: 3px;
+}
+.it-polling:last-child{
+    margin-left: 3px;
+}
+.ite-polling{
+    position: relative;
+    background-color: black;
+    width: calc(100% - 10px);
+    border-radius: 10px;
+    overflow: hidden !important;
+    cursor: pointer;
+    padding: 5px;
+    height: 400px;
+}
+.polling-bars[dark-mode="false"] .ite-polling{
+    background-color: rgb(69, 69, 69);
+}
+
+
+.ite-polling img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    opacity: 0.9;
+}
+.veil-ite-polling{
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 0%;
+    opacity: 0.5;
+    background-color: black;
+    border-radius: 7px;
+}
+.polling-bars[dark-mode="false"] .veil-ite-polling{
+    background-color: rgb(50, 50, 50);
+}
+.votes-ite-polling{
+    text-align: center;
+    width: calc(100% - 10px);
+    height: auto;
+    z-index: 10;
+    position: absolute;
+    bottom: 30px;
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    text-shadow: 0px 1px 8px black;
+}
+.label-it-polling{
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin: 10px 0px;
+    font-size: 1.3em;
+}
+.polling-bars[dark-mode="false"] .label-it-polling{
+    color: black;
+}
+
+.chosing-ite-polling{
+    background-color: rgba(100, 148, 237, 0.769) !important;
+}
+
+.chosing-ite-polling .veil-ite-polling{
+    background-color: rgba(100, 148, 237, 0.917) !important;
+}
+

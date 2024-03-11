@@ -1,0 +1,84 @@
+.fr-member{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+.fr-member_{
+    position: relative;
+    float: right;
+    width: 100%;
+    height: auto;
+}
+
+/* ----------------------------------------------------------------------------- */
+
+.badge-member{
+    float: left;
+    width: auto;
+    height: 23px;
+    padding: 4px;
+    border-radius: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0 0px 2px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+    background-color: rgb(141, 53, 53);
+    display: flex;
+    justify-content: left;
+}
+.fr-member[dark-mode="true"]  .badge-member{
+    background-color: rgb(61, 158, 94);
+}
+
+.badge-member svg{
+    width: 19px;
+    height: 100%;
+    margin-left: 2px;
+    fill: white;
+}
+.badge-member span{
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 7px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+.body-member{
+    position: relative;
+    float: left;
+    color: black;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 3px;
+    color: white;
+}
+
+/* --------------------------------------------------------- */
+
+.content-body-member{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 3px;
+    display: block;
+}
+
+
+
+@media only screen and (max-width: 650px){ 
+    .badge-member{
+        margin-left: 10px;
+    }
+}

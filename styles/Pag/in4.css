@@ -1,0 +1,99 @@
+.fr-account{
+    position: relative;
+    float: left;
+    width: calc(100% - 0.5px);
+    height: auto;
+}
+
+ .setting-account{
+    position: relative;
+    float: left;
+    height: auto;
+    margin-left: 10px;
+
+    width: calc(100% - 210px);
+}
+
+
+
+@media only screen and (max-width: 800px){ 
+    .setting-account{
+        width: calc(100%) !important;
+        margin-left: 0px !important;
+        margin-top: 10px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.manage-account{
+    position: relative;
+    float: left;
+    height: auto;
+    margin-left: 10px;
+    background-color: transparent;
+    width: calc(100% - 210px);
+    box-shadow: none !important;
+    border-radius: 3px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+.wrap-search-manage-account{
+    margin-top: 1px;
+    position: relative;
+    width: calc(100% - 1px);
+    float: left;
+}
+.manage-search-bar {
+  width: 100%;
+  position: relative;
+  display: flex;
+  float: left;
+
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 0px 2px rgba(0, 0, 0, 0.3);
+
+  background: slategray;
+
+  
+}
+.searchTerm-manage-account {
+  width: 100%;
+  border-right: none;
+  padding: 5px;
+  height: 18px;
+  border-radius: 5px 0 0 5px ;
+  outline: none;
+
+  margin: auto;
+  margin-left: 1px;
+
+
+  border: 1px solid slategray !important;
+}
+.searchTerm-manage-account:focus{
+  color: #414141;
+}
+.searchButton-manage-account {
+  width: 36px;
+  height: 32px;
+  border: 0px;
+  background: slategray;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}

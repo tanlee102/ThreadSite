@@ -1,0 +1,341 @@
+.contain-manga{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: -40px;
+    width: 100%;
+    /* background-color: aqua; */
+    height: auto;
+}
+
+.contain-list-of-chap{
+    position: relative;
+    width: calc(60% - 10px);
+    margin-right: 10px;
+    height: auto;
+    /* background-color: bisque; */
+}
+
+
+
+#label-list-of-chap{
+    position: relative;
+    font-size: 23px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(57, 57, 57);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.content[dark-mode="true"] #label-list-of-chap{
+    color: rgb(240, 240, 240);
+}
+
+.list-of-chap{
+    display: block;
+    padding: 0px;
+    
+}
+.list-of-chap li{
+    margin-top: 7px !important;
+    background-color: rgb(250, 250, 250);
+    display: block;
+    margin: 0px;
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0px 1px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.content[dark-mode="true"] .list-of-chap li{
+    background-color: rgb(40, 40, 40);
+}
+
+.list-of-chap li div:first-child{
+    font-size: 19px;
+    font-weight: 600;
+    color: rgb(73, 73, 73);
+}
+.content[dark-mode="true"] .list-of-chap li div:first-child{
+    color: white !important;
+}
+
+.list-of-chap li div:last-child{
+    margin-top: 7px;
+    font-size: 14px;
+    color: rgb(73, 73, 73);
+}
+.content[dark-mode="true"] .list-of-chap li div:last-child{
+    color: rgb(228, 228, 228) !important;
+}
+
+.wrap-info-of-manga{
+    position: relative;
+    overflow: hidden;
+    width: 40%;
+    height: auto;
+    margin-bottom: 50px;
+}
+.contain-info-of-manga{
+    position: relative;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0 0px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+.content[dark-mode="true"] .contain-info-of-manga{
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+.contain-info-of-manga > div:first-child{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+}
+
+.contain-info-of-manga > div:first-child div{
+    display: none;
+}
+
+.contain-info-of-manga > div:first-child img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.contain-info-of-manga > div:last-child{
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: 10px 10px 30px 10px;
+    line-height: 1.5em; /* 16.9px line-height */
+}
+
+.contain-info-of-manga > div:last-child > div:first-child{
+    display: inline-block;
+    font-size: 23px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+
+
+
+.contain-chapter{
+    position: relative;
+    margin-top: -40px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.title-chapter{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 26px;
+}
+.content[dark-mode="true"] .title-chapter{
+    color: white;
+}
+
+.button-chapter{
+    display: inline-flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.button-chapter div{
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.button-chapter div span{
+    display: inline;
+    padding: 5px 10px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 3px;
+    margin: 0px 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.list-url-chapter{
+    display: block;
+    position: relative;
+    height: auto;
+    width: 100%;
+    
+}
+
+.url-chapters{
+    position: relative;
+    display: block;
+    height: auto;
+    width: calc(100% - 180px);
+    padding: 0px 90px;
+    overflow: hidden;
+}
+
+.url-chapters img{
+    position: relative;
+    width: 100%;
+    min-height: 115px;
+    z-index: 10;
+}
+
+
+
+
+
+
+
+
+.move-add-chapter{
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    position: relative;
+    width: auto;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: cornflowerblue;
+}
+
+
+.contain-add-chapter{
+    display: inline-block;
+    height: auto;
+    width: calc(100% - 20px);
+}
+
+.add-chapter{
+    display: inline-block;
+    background-color: white;
+    height: auto;
+    width: calc(100%);
+    padding: 10px;
+    box-shadow: 0 0px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+
+#btn-add-chapter{
+    float: right;
+    position: relative;
+    display: inline;
+    width: auto;
+    height: auto;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 6px 8px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.label-add-chapter{
+    font-size: 14px;
+    padding: 0px 0px 10px 0px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(136, 136, 136);
+}
+
+#number-add-chapter{
+    position: relative;
+    outline: none;
+    border: 1px solid rgb(136, 136, 136);
+    padding: 7px 10px;
+    width: 150px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+#number-add-chapter:focus{
+    border: 1px solid cornflowerblue;
+}
+
+
+#title-add-chapter{
+    position: relative;
+    outline: none;
+    border: 1px solid rgb(136, 136, 136);
+    padding: 7px 10px;
+    width: 300px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+#title-add-chapter:focus{
+    border: 1px solid cornflowerblue;
+}
+
+
+
+
+
+
+
+.lds-facebook {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 80px;
+  z-index: 0;
+}
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: rgb(117, 117, 117);
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.content[dark-mode="true"] .lds-facebook div {
+    background: #dadada;
+}
+.lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+}
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+  50%, 100% {
+    top: 24px;
+    height: 32px;
+  }
+}

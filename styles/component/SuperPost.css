@@ -1,0 +1,122 @@
+.block-super-post{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.super-post-hub{
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    height: auto;
+}
+
+.item-super-post{
+    display: inline-flex;
+    flex-direction: row;
+    width: calc(100% - 11px);
+    padding: 5px;
+    margin: 0.5px;
+    border-radius: 1px;
+    background-color: white;
+    box-shadow: 0 0px 2px rgba(0, 0, 0, 0.266);
+    
+    height: 130px;  /*change*/
+}
+
+
+.super-post-hub[dark-mode="true"] .item-super-post{
+    background-color: rgb(62, 62, 62);
+}
+
+
+
+.image-super-post{
+    display: block;
+    cursor: pointer;
+    height: 100%;
+
+    width: 190px; /*change*/
+}
+.image-super-post div{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.image-super-post div img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.title-super-post{
+    display: flex;
+    flex-direction: column;
+
+    width: calc(100% - 205px); /*change*/
+    margin-left: 10px;  /*change*/
+}
+
+
+.title-super-post > div:nth-child(1){
+    display: block;
+    color: coral;
+    font-size: 12px;  /*change*/
+    margin-bottom: 3px;  /*change*/
+    cursor: pointer;
+}
+
+
+.title-super-post > div:nth-child(2){
+    font-weight: bold;
+    color: black;
+    font-size: 17px;  /*change*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    cursor: pointer;
+}
+.super-post-hub[dark-mode="true"] .title-super-post > div:nth-child(2){
+    color: white;
+}
+
+
+.title-super-post > div:nth-child(3){
+    margin-top: 5px;  
+    cursor: pointer;
+}
+.icon-list-in-line ul{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: left; /* Align horizontal */
+    align-items: center; /* Align vertical */
+    width: auto;
+}
+.icon-list-in-line ul li img{
+    margin-right: 5px;
+    object-fit: cover;
+    width: 20px; /*change*/
+    height: 20px; /*change*/
+    border-radius: 50%;
+    border: 0.5px solid rgba(0, 0, 0, 0.406);
+}
+
+.icon-list-in-line ul li:has(img){
+    position: relative;
+    overflow: hidden;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: left; /* Align horizontal */
+    align-items: center; /* Align vertical */
+    width: auto;
+    height: fit-content;
+    margin-right: 3px;
+}

@@ -1,0 +1,74 @@
+@media only screen and (min-width: 1050px) and (max-width: 1170px){
+    .url-chapters{
+        width: calc(100% - 80px);
+        padding: 0px 40px;
+    }
+}
+
+@media only screen and (min-width: 925px)  and (max-width: 1050px) {
+    .contain-info-of-manga > div:first-child{
+        position: relative;
+        width: 100%;
+        height: 250px;
+        margin-top: 10px;
+    }
+
+    .url-chapters{
+        width: calc(100%);
+        padding: 0px;
+    }
+    .title-chapter{
+        font-size: 24px;
+    }
+}
+
+
+@media only screen and (min-width: 769px)  and (max-width: 925px) {
+    .contain-info-of-manga > div:first-child{
+        position: relative;
+        width: 100%;
+        height: 230px;
+        margin-top: 10px;
+    }
+    .url-chapters{
+        width: calc(100%);
+        padding: 0px;
+    }
+    .title-chapter{
+        font-size: 21px;
+    }
+}
+
+
+@media only screen and (max-width: 769px) {
+    .contain-manga{
+        display: flex;
+        flex-direction: column;
+        width: calc(100% - 20px);
+        margin-left: 10px;
+    }
+    .wrap-info-of-manga{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .contain-list-of-chap{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .contain-list-of-chap > div:first-child{
+        font-size: 19px;
+    }
+    .url-chapters{
+        width: calc(100%);
+        padding: 0px;
+    }
+    .title-chapter{
+        font-size: 19px;
+    }
+    .button-chapter div span{
+        padding: 4px 9px;
+        margin: 0px 4px;
+        font-size: 13px;
+    }
+}
