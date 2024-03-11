@@ -1,34 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ThreadSite is a dynamic website that combines the functionalities of a forum and a social media platform. It provides a space where users can actively participate in discussions, share their thoughts, and upload posts on a wide range of topics. Whether you're looking to connect with like-minded individuals, seek advice, or engage in meaningful conversations, ThreadSite offers a user-friendly interface and intuitive design to enhance your browsing experience. 
 
-## Getting Started
+The ThreadSite website incorporates the following technologies:
 
-First, run the development server:
+- HTML and CSS are used for creating the structure and styling of the website.
+- Backend and Frontend: JavaScript is utilized for both the backend and frontend development, with Next.js and Express.js frameworks providing the foundation.
+- Databases: ThreadSite employs MySQL and MongoDB databases for data storage and retrieval. MySQL is a reliable relational database management system, while MongoDB is a flexible and scalable NoSQL database solution.
+- Image Server: The website utilizes two different technologies for the image server. PHP is employed for image processing and management, while Python's FastAPI framework offers a high-performance solution for serving images efficiently.
+- Proxy: Nginx is utilized as a proxy server to handle incoming requests, route traffic, and provide additional security and performance optimizations.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+For a complete understanding of the project, just read this document (only written in Vietnamese): [ThreadApp.docx](https://github.com/tanlee102/ThreadSite_/files/14553669/ThreadApp.docx)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Here is the complete code for all servers: https://drive.google.com/file/d/11N6s8HsMyPwyQKjIM45L4z9GG1TBtHRw/view?usp=sharing
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+![image](https://github.com/tanlee102/ThreadSite_/assets/54614140/9d761577-f5ee-4db5-9d42-ab408673b245)
+![image](https://github.com/tanlee102/ThreadSite_/assets/54614140/ec46a12a-6178-4c7e-9327-c054f00ddf21)
+![image](https://github.com/tanlee102/ThreadSite_/assets/54614140/1d28d44e-18b4-4c38-aae2-b1f35900209e)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+Example described Image:
+<img width="1322" alt="Screenshot 2024-03-11 at 11 59 14" src="https://github.com/tanlee102/ThreadSite_/assets/54614140/5d8747c9-d629-4300-919a-49cfd8f18358">
+![image](https://github.com/tanlee102/ThreadSite_/assets/54614140/f7ca02e9-b915-45a0-8540-4501f1a622c0)
+![image](https://github.com/tanlee102/ThreadSite_/assets/54614140/ff3d5c41-2006-4314-baa4-d33908625bf1)
+![image](https://github.com/tanlee102/ThreadSite_/assets/54614140/bb6e4b5d-d166-43d2-a519-6888a9e53a33)
 
-To learn more about Next.js, take a look at the following resources:
+![380614889_844484070589460_2095644996168744565_n](https://github.com/tanlee102/ThreadSite_/assets/54614140/5b0b0d54-800f-4d28-9bba-10ca25766fff)
+![379658898_1018123816101086_4870796198918387353_n](https://github.com/tanlee102/ThreadSite_/assets/54614140/60714c8a-bdb3-4cbe-8911-1af5565f6fc4)
+![379598850_962649414813153_6943368259857422831_n](https://github.com/tanlee102/ThreadSite_/assets/54614140/820f3038-5185-4dd5-ad1d-d1e1438c8526)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![image](https://github.com/tanlee102/ThreadSite_/assets/54614140/54287f14-da1e-44dd-97b6-f2b9e6100509)
+![image](https://github.com/tanlee102/ThreadSite_/assets/54614140/563a531c-d772-41f5-aed8-abd7173924c8)
+![image](https://github.com/tanlee102/ThreadSite_/assets/54614140/52bc9434-1ab2-44c8-9dd8-07542c6f49f5)
+![image](https://github.com/tanlee102/ThreadSite_/assets/54614140/a67fe129-132a-40fa-9e93-02721accc5d4)
+![image](https://github.com/tanlee102/ThreadSite_/assets/54614140/4c4164a7-b7bb-4afc-a55f-ed3250a2dc97)
+![image](https://github.com/tanlee102/ThreadSite_/assets/54614140/83220241-2fde-41d9-9796-755ebe6fed77)
+![image](https://github.com/tanlee102/ThreadSite_/assets/54614140/0628871c-55a3-42fe-a2e5-df8e85a81769)
+![image](https://github.com/tanlee102/ThreadSite_/assets/54614140/4ecb5779-249c-44e1-8367-52bb0713f9da)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
